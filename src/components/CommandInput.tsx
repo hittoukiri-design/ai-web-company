@@ -51,7 +51,7 @@ export default function CommandInput({ onCommandSent }: { onCommandSent: () => v
           type="text" 
           value={instruction}
           onChange={(e) => setInstruction(e.target.value)}
-          placeholder="Delegate to AI (e.g. 'Audit articles and prep FB drafts for YaarWin')" 
+          placeholder="Delegate to AI (e.g. 'Audit articles and prep FB drafts for GameHub')" 
           className="command-input"
           disabled={isSubmitting}
         />

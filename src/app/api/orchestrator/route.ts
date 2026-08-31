@@ -30,8 +30,8 @@ export async function POST(request: Request) {
     console.log(`[Orchestrator] Received instruction: "${instruction}"`);
     
     // Hardcoded logic for MVP demonstration: 
-    // We assume the target website is 'YaarWin' if not specified.
-    const website = await resolveWebsite('YaarWin');
+    // We assume the target website is 'GameHub' if not specified.
+    const website = await resolveWebsite('GameHub');
     
     if (!website) {
       return NextResponse.json({ 
